@@ -11,7 +11,7 @@ class AfipController extends Controller
 
     public function __construct()
     {
-        $this->afip = new Afip(array('CUIT' => 20349590418));
+        $this->afip = new Afip(array('CUIT' => 20334445551));
     }
 
     public function lastVoucher()
